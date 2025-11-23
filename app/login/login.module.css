@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('/img/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.formTitle{
+    color: whitesmoke;
+    text-shadow: 0 0 2px black;
+    font-size: 2em;
+}
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(18, 45, 104, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.587);
+}
+.formInput{
+    min-width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: solid 1px lightgray;
+    text-indent: 10px;
+    color: whitesmoke;
+}
+.formSubmit{
+    background: linear-gradient(60deg, green, forestgreen);
+    padding: 10px;
+    border-radius: 10px;
+    color: whitesmoke;
+    width: 75%;
+    margin-top: 10px;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.formSubmit:hover{
+    transform: translateY(-5px);
+}

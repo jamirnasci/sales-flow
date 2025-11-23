@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background: linear-gradient(60deg, blue, darkblue);
+    color: whitesmoke;
+}

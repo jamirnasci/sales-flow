@@ -1,0 +1,60 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+}
+.topBar{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100px;
+    background-color: darkblue;
+    color: whitesmoke;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.topBar h1{
+    font-size: 1.5em;
+}
+
+.contentContainer{
+    display: flex;
+}
+
+.sideBar{
+    min-width: 250px;
+    background: linear-gradient(60deg, blue, darkblue);
+    height: calc(100vh - 60px);
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+}
+
+.navButton{
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px white;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.homeContent{
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 90vh;
+    overflow: auto;    
+    flex-grow: 1;
+}
