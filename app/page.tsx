@@ -4,12 +4,12 @@ import styles from './index.module.css'
 export default function Index() {
   return (
   <main>
-    <div className="container login-container">
+    <div className="h-screen flex items-center justify-center">
       <div className="row">
-        <div className="col s12 m6 offset-m3">
-          <div className="card z-depth-3">
+        <div className="col s12">
+          <div className="p-5 rounded-[20px]">
             <div className="center-align">
-              <span className="system-title">SalesFlow</span>
+              <h3 className="blue-text">SalesFlow</h3>
               <p className="system-text">Gerencie suas vendas de forma simples e eficiente.</p>
             </div>
             <form>

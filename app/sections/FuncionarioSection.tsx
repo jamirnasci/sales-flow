@@ -11,14 +11,14 @@ export default function FuncionarioSection() {
             </div>
 
             <div className="row flex items-center">
-                <div className="col s12 m8">
+                <div className="col s10">
                     <div className="input-field">
                         <i className="material-icons prefix">search</i>
                         <input id="pesquisa-funcionario" type="text" className="validate" />
                         <label htmlFor="pesquisa-funcionario">Pesquisar funcionário</label>
                     </div>
                 </div>
-                <div className="col s12 m4">
+                <div className="col s2">
                     <button className="btn waves-effect waves-light green" type="submit">
                         Buscar
                         <i className="material-icons right">send</i>

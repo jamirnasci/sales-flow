@@ -1,25 +1,25 @@
 export default function ProdutoSection() {
     return (
         <section id="produtos" className="">
-            <h4>Produtos</h4>
 
             <div className="row">
                 <div className="col s12">
+                <h4>Produtos</h4>
                     <a className="btn waves-effect waves-light blue">
                         <i className="material-icons left">add</i>Cadastrar Produto
                     </a>
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col s12 m8">
+            <div className="row flex items-center">
+                <div className="col s10">
                     <div className="input-field">
                         <i className="material-icons prefix">search</i>
                         <input id="pesquisa-produto" type="text" className="validate" />
                         <label htmlFor="pesquisa-produto">Pesquisar produto</label>
                     </div>
                 </div>
-                <div className="col s12 m4">
+                <div className="col s2">
                     <button className="btn waves-effect waves-light green" type="submit">
                         Buscar
                         <i className="material-icons right">send</i>
